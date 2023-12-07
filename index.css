@@ -1,3 +1,70 @@
-body{
-    background-color: black;
+body {
+    background-color: #246100; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calcoutbox {
+    height: 700px;
+    width: 400px;
+    background-color: #394240; 
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.calcinnerbox {
+    height: 95%;
+    width: 90%;
+    border-radius: 20px;
+    margin: 20px;
+    
+    
+}
+
+.display {
+    height: 170px;
+    width: 100%;
+    background-color: white; 
+    border-radius: 20px;
+    color: white; 
+    border-bottom: 5px solid black;
+    
+}
+
+button.num {
+    height: 90px;
+    width: 85px;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    background-color: #246100; 
+    color: white; 
+    transition: background-color 0.3s ease;
+    border: none;
+    border: 1px solid black;
+    
+}
+
+button.num:hover {
+    background-color: #000000;
+    border: 1px solid white;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+table tr td {
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+}
+
+.input {
+    margin-top: 20px;
 }
