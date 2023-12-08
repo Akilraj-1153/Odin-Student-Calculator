@@ -3,12 +3,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 100px;
 }
-
+a{
+    color: #000000;
+}
 .calcoutbox {
     height: 700px;
-    width: 400px;
+    width: 350px;
     background-color: #394240; 
     border-radius: 20px;
     border: 1px solid black;
@@ -28,14 +30,20 @@ body {
     width: 100%;
     background-color: white; 
     border-radius: 20px;
-    color: white; 
+    color: black; 
     border-bottom: 5px solid black;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    font-size: 40px;
+    overflow: hidden;
 }
+
 
 button.num {
     height: 90px;
-    width: 85px;
+    width: 75px;
     flex: 1 0 auto;
     border-radius: 10px;
     background-color: #246100; 
